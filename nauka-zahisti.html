@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500italic,500,600,600italic,700,700italic,800,800italic,900,900italic&display=swap">
         <link rel="stylesheet" href="blocks.css">
     </head>
-    <body class="bg-light">
+    <body>
         <div class="container">
 </div>
         <!-- Bootstrap core JavaScript
@@ -23,6 +23,21 @@
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script>
+    $(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+})
+</script>
+        <script>
+    $(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+})
+</script>
+        <script>
+    $(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+})
+</script>
     </body>
     <nav class="fixed-top navbar navbar-expand-lg navbar-light" style="background-color: #96ceb8;"> 
         <div class="container"> 
@@ -45,146 +60,179 @@
     </nav>
     <nav class="justify-content-center mt-5 navbar navbar-light pt-3" style="background-color: #96ceb8;">
         <form>
-            <a class="border-0 btn btn-outline-light font-weight-bold rounded-0 text-dark" style="font-family: 'Montserrat', sans-serif;" href="nauka-konf.html"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-easel" viewBox="0 0 16 20">
-                    <path d="M8.473.337a.5.5 0 0 0-.946 0L6.954 2h2.092L8.473.337zM12.15 11h-1.058l1.435 4.163a.5.5 0 0 0 .946-.326L12.15 11zM8.5 11h-1v2.5a.5.5 0 0 0 1 0V11zm-3.592 0H3.85l-1.323 3.837a.5.5 0 1 0 .946.326L4.908 11z"/>
-                    <path fill-rule="evenodd" d="M14 3H2v7h12V3zM2 2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
+            <a class="border-0 btn btn-outline-light font-weight-bold rounded-0 text-dark" style="font-family: 'Montserrat', sans-serif;" href="nauka-konf.html"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-easel text-dark" viewBox="0 0 16 16">
+                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
                 </svg> <br>Конференції<br></a>
-            <a class="active border-0 btn btn-outline-light font-weight-bold rounded-0 text-dark" style="font-family: 'Montserrat', sans-serif;" href="nauka-zahisti.html"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-people" viewBox="0 0 16 20">
-                    <path fill-rule="evenodd" d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+            <a class="active border-0 btn btn-outline-light font-weight-bold rounded-0 text-dark" style="font-family: 'Montserrat', sans-serif;" href="nauka-zahisti.html"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-people text-dark" viewBox="0 0 16 16">
+                    <path d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0zM2 3v7h12V3H2z"/>
                 </svg> <br>&nbsp;Захисти</a>
         </form>
     </nav>
-    <section class="bg-light "> 
-        <div class="container pb-4 pt-4"> 
-            <div class="align-items-center row"> 
-                <div class="col-lg-4 col-md-4 col-xl-4 mr-auto pb-3 pt-3 text-center text-lg-right"> 
-                    <img src="img/magist.svg" width="150" height="150"/> 
+    <section> 
+        <div class="container "> 
+            <div class="align-items-center mb-3 row"> 
+                <div class="col-lg-12 col-xl-8 mt-4">
+                    <h6 class="mb-1 text-black-50" style="font-family: 'Montserrat', sans-serif;">Наука на кафедрі архітектури</h6> 
+                    <h2 class="font-weight-bold mb-1" style="font-family: 'Montserrat', sans-serif;">Захисти студентів</h2>
                 </div>                 
-                <div class="col-lg-8 col-md-8 pb-3 pt-3 text-center text-lg-left text-md-left"> 
-                    <h6 class="mb-1 text-danger">Наука на кафедрі архітектури</h6> 
-                    <h2 class="font-weight-bold mb-1">Захисти студентів</h2> 
+                <div class="col-lg-auto ml-auto"> 
+</div>                 
+            </div>             
+            <div class="row"> 
+</div>             
+        </div>         
+    </section>
+    <section class="pb-4 pt-4 text-center text-secondary"> 
+        <div class="container "> 
+            <div class="row"> 
+                <div class="col-lg-6 col-md-9 mb-3 mt-3 text-sm-right"> 
+                    <div class="align-items-center bg-white border border-light flex-nowrap flex-row-reverse flex-sm-row no-gutters rounded-0 row shadow text-right" style="border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; border-color: #7c7c7c;"> 
+                        <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 text-center text-md-right user-select-all"> 
+                            <img src="img/magist.svg" class="h-auto img-fluid rounded-0 user-select-auto w-auto"> 
+                        </div>                         
+                        <div class="col-lg-6 col-md-6 col-sm-6 p-3 p-xl-3"> 
+                            <h4 class="font-weight-bold mb-0 text-dark text-uppercase" style="font-family: 'Montserrat', sans-serif;">Захисти магістрів</h4> 
+                            <hr class="bg-secondary border-width-2 ml-5 mr-n5"/>
+                            <p style="font-family: 'Montserrat', sans-serif;">20 грудня<br>2020 року</p>
+                            <div class="d-inline-flex flex-wrap"> 
+                                <a href="#" class="line-height-1 mr-2 text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16" title="Дивитися результати" data-toggle="tooltip">
+                                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
+                                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
+                                    </svg> </a> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>
+                <div class="col-lg-6 col-md-9 mb-3 mt-3 text-sm-right"> 
+                    <div class="align-items-center bg-white border border-light flex-nowrap flex-row-reverse flex-sm-row no-gutters rounded-0 row shadow text-right" style="border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; border-color: #7c7c7c;"> 
+                        <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 text-center text-md-right user-select-all"> 
+                            <img src="img/bak-17-06-2020.jpg" class="h-auto img-fluid rounded-0 user-select-auto w-auto"> 
+                        </div>                         
+                        <div class="col-lg-6 col-md-6 col-sm-6 p-3 p-xl-3"> 
+                            <h4 class="font-weight-bold mb-0 text-dark text-uppercase" style="font-family: 'Montserrat', sans-serif;">Захисти бакалаврів</h4> 
+                            <hr class="bg-secondary border-width-2 ml-5 mr-n5"/>
+                            <p style="font-family: 'Montserrat', sans-serif;">17 червня<br>2020 року</p>
+                            <div class="d-inline-flex flex-wrap"> 
+                                <a href="#" class="line-height-1 mr-2 text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16" data-toggle="tooltip" title="Дивитися результати">
+                                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
+                                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
+                                    </svg> </a> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>
+                <div class="col-lg-6 col-md-9 mb-3 mt-3 text-sm-right"> 
+                    <div class="align-items-center bg-white border border-light flex-nowrap flex-row-reverse flex-sm-row no-gutters rounded-0 row shadow text-right" style="border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; border-color: #7c7c7c;"> 
+                        <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 text-center text-md-right user-select-all"> 
+                            <img src="img/magist.svg" class="h-auto img-fluid rounded-0 user-select-auto w-auto"> 
+                        </div>                         
+                        <div class="col-lg-6 col-md-6 col-sm-6 p-3 p-xl-3"> 
+                            <h4 class="font-weight-bold mb-0 text-dark text-uppercase" style="font-family: 'Montserrat', sans-serif;">Захисти магістрів</h4> 
+                            <hr class="bg-secondary border-width-2 ml-5 mr-n5"/>
+                            <p style="font-family: 'Montserrat', sans-serif;">9 лютого<br>2020 року</p>
+                            <div class="d-inline-flex flex-wrap"> 
+                                <a href="#" class="line-height-1 mr-2 text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16" data-toggle="tooltip" title="Дивитися результати">
+                                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
+                                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
+                                    </svg> </a> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>
+                <div class="col-lg-6 col-md-9 mb-3 mt-3 text-sm-right"> 
+                    <div class="align-items-center bg-white border border-light flex-nowrap flex-row-reverse flex-sm-row no-gutters rounded-0 row shadow text-right" style="border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; border-color: #7c7c7c;"> 
+                        <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 text-center text-md-right user-select-all"> 
+                            <img src="img/bak-24-06-2019.jpg" class="h-auto img-fluid rounded-0 user-select-auto w-auto"> 
+                        </div>                         
+                        <div class="col-lg-6 col-md-6 col-sm-6 p-3 p-xl-3"> 
+                            <h4 class="font-weight-bold mb-0 text-dark text-uppercase" style="font-family: 'Montserrat', sans-serif;">Захисти бакалаврів</h4> 
+                            <hr class="bg-secondary border-width-2 ml-5 mr-n5"/>
+                            <p style="font-family: 'Montserrat', sans-serif;">24 червня<br>2019 року</p>
+                            <div class="d-inline-flex flex-wrap"> 
+                                <a href="#" class="line-height-1 mr-2 text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16" data-toggle="tooltip" title="Дивитися результати">
+                                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
+                                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
+                                    </svg> </a> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>
+                <div class="col-lg-6 col-md-9 mb-3 mt-3 text-sm-right"> 
+                    <div class="align-items-center bg-white border border-light flex-nowrap flex-row-reverse flex-sm-row no-gutters rounded-0 row shadow text-right" style="border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; border-color: #7c7c7c;"> 
+                        <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 text-center text-md-right user-select-all"> 
+                            <img src="img/mag-07-02-2019.jpg" class="h-auto img-fluid rounded-0 user-select-auto w-auto"> 
+                        </div>                         
+                        <div class="col-lg-6 col-md-6 col-sm-6 p-3 p-xl-3"> 
+                            <h4 class="font-weight-bold mb-0 text-dark text-uppercase" style="font-family: 'Montserrat', sans-serif;">Захисти магістрів</h4> 
+                            <hr class="bg-secondary border-width-2 ml-5 mr-n5"/>
+                            <p style="font-family: 'Montserrat', sans-serif;">7 лютого<br>2019 року</p>
+                            <div class="d-inline-flex flex-wrap"> 
+                                <a href="#" class="line-height-1 mr-2 text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16" data-toggle="tooltip" title="Дивитися результати">
+                                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
+                                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
+                                    </svg> </a> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>
+                <div class="col-lg-6 col-md-9 mb-3 mt-3 text-sm-right"> 
+                    <div class="align-items-center bg-white border border-light flex-nowrap flex-row-reverse flex-sm-row no-gutters rounded-0 row shadow text-right" style="border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; border-color: #7c7c7c;"> 
+                        <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 text-center text-md-right user-select-all"> 
+                            <img src="img/mag-07-02-2018.jpg" class="h-auto img-fluid rounded-0 user-select-auto w-auto"> 
+                        </div>                         
+                        <div class="col-lg-6 col-md-6 col-sm-6 p-3 p-xl-3"> 
+                            <h4 class="font-weight-bold mb-0 text-dark text-uppercase" style="font-family: 'Montserrat', sans-serif;">Захисти магістрів</h4> 
+                            <hr class="bg-secondary border-width-2 ml-5 mr-n5"/>
+                            <p style="font-family: 'Montserrat', sans-serif;">7 лютого<br>2018 року</p>
+                            <div class="d-inline-flex flex-wrap"> 
+                                <a href="#" class="line-height-1 mr-2 text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16" data-toggle="tooltip" title="Дивитися результати">
+                                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
+                                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
+                                    </svg> </a> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>
+                <div class="col-lg-6 col-md-9 mb-3 mt-3 text-sm-right"> 
+                    <div class="align-items-center bg-white border border-light flex-nowrap flex-row-reverse flex-sm-row no-gutters rounded-0 row shadow text-right" style="border-top-style: none; border-left-style: none; border-right-style: none; border-bottom-style: none; border-color: #7c7c7c;"> 
+                        <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 text-center text-md-right user-select-all"> 
+                            <img src="img/mag-30-01-2017.jpg" class="h-auto img-fluid rounded-0 user-select-auto w-auto"> 
+                        </div>                         
+                        <div class="col-lg-6 col-md-6 col-sm-6 p-3 p-xl-3"> 
+                            <h4 class="font-weight-bold mb-0 text-dark text-uppercase" style="font-family: 'Montserrat', sans-serif;">Захисти магістрів</h4> 
+                            <hr class="bg-secondary border-width-2 ml-5 mr-n5"/>
+                            <p style="font-family: 'Montserrat', sans-serif;">30 січня<br>2017 року</p>
+                            <div class="d-inline-flex flex-wrap"> 
+                                <a href="#" class="line-height-1 mr-2 text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16" data-toggle="tooltip" title="Дивитися результати">
+                                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
+                                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"/>
+                                    </svg> </a> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
                 </div>                 
             </div>             
         </div>         
     </section>
-    <div class="container ">
+    <div class="container pb-4 pt-4">
         <div class="align-items-center row">
             <div class="col">
-                <hr class="border-danger mb-0 mt-0"/> 
+                <hr class="border-secondary mb-0 mt-0"/> 
             </div>
             <div class="col-auto">
-                <span class="d-block p-1 rounded-circle" style="background-color: #ff7757;"><svg viewBox="0 0 24 24" fill="none" width="24" height="24" class="d-block text-white">
-                        <path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" fill="currentColor"/>
+                <span class="bg-secondary d-block p-1 rounded-circle" style="background-color: #ff7757;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" width="24" height="20" class="text-white" fill="currentColor">
+                        <g>
+                            <path fill="none" d="M0 0h24v24H0z"/>
+                            <path d="M14 8.947L22 14v2l-8-2.526v5.36l3 1.666V22l-4.5-1L8 22v-1.5l3-1.667v-5.36L3 16v-2l8-5.053V3.5a1.5 1.5 0 0 1 3 0v5.447z"/>
+                        </g>
                     </svg></span> 
             </div>
             <div class="col">
-                <hr class="border-danger mb-0 mt-0"/> 
+                <hr class="border-secondary mb-0 mt-0"/> 
             </div>
         </div>
     </div>
-    <section class="bg-light pb-5 pt-5 text-secondary"> 
-        <div class="container"> 
-            <div class="justify-content-center row"> 
-                <div class="col-lg-6 col-md-5 mb-3 mt-3 offset-lg-0 offset-md-0 text-sm-right"> 
-                    <div class="align-items-center bg-light border flex-lg-row flex-md-column-reverse ml-3 ml-lg-0 ml-sm-0 mr-3 mr-lg-0 mr-sm-0 no-gutters  rounded-lg row shadow text-center text-lg-right text-md-center text-sm-right"> 
-                        <div class="col-lg-6 col-md col-sm-6 order-lg-2 order-sm-2"> 
-                            <img src="img/meet.svg" class="bg-secondary img-fluid rounded"> 
-                        </div>                         
-                        <div class="col-md col-sm-6 p-3"> 
-                            <h4 class="font-weight-bold text-dark text-uppercase">Захисти магістрів</h4> 
-                            <h6 class="mb-3">20 грудня 2020 року</h6>
-                            <a class="btn btn-secondary disabled" href="#">Детально</a> 
-                        </div>                         
-                    </div>                     
-                </div>
-                <div class="col-lg-6 col-md-5 mb-3 mt-3 offset-lg-0">
-                    <div class="align-items-center bg-light border flex-lg-row-reverse flex-md-column-reverse flex-row-reverse ml-3 ml-sm-0 mr-3 mr-sm-0 no-gutters  rounded-lg row shadow text-center text-lg-left text-md-center text-sm-left">
-                        <div class="col-lg-6 col-md col-sm-6 order-lg-2 order-sm-2"> 
-                            <img src="img/bak-17-06-2020.jpg" class="img-fluid rounded"> 
-                        </div>                         
-                        <div class="col-md col-sm-6 p-3"> 
-                            <h4 class="font-weight-bold text-dark text-uppercase">Захисти Бакалаврів</h4> 
-                            <h6 class="mb-3">17 червня 2020 року</h6>
-                            <a class="btn btn-secondary disabled" href="#">Детально</a> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-5 mb-3 mt-3 offset-lg-0 offset-md-0 text-sm-right"> 
-                    <div class="align-items-center bg-light border flex-lg-row flex-md-column-reverse ml-3 ml-sm-0 mr-3 mr-sm-0 no-gutters  rounded-lg row shadow text-center text-lg-right text-md-center text-sm-right"> 
-                        <div class="col-lg-6 col-md col-sm-6 order-lg-2 order-sm-2"> 
-                            <img src="img/meet.svg" class="bg-secondary img-fluid rounded"> 
-                        </div>                         
-                        <div class="col-md col-sm-6 p-3"> 
-                            <h4 class="font-weight-bold text-dark text-uppercase">Захисти магістрів</h4> 
-                            <h6 class="mb-3">09 лютого 2020 року</h6>
-                            <a class="btn btn-secondary disabled" href="#">Детально</a> 
-                        </div>                         
-                    </div>                     
-                </div>
-                <div class="col-lg-6 col-md-5 mb-3 mt-3 offset-lg-0">
-                    <div class="align-items-center bg-light border flex-lg-row-reverse flex-md-column-reverse flex-row-reverse ml-3 ml-sm-0 mr-3 mr-sm-0 no-gutters  rounded-lg row shadow text-center text-lg-left text-md-center text-sm-left">
-                        <div class="col-lg-6 col-md col-sm-6 order-lg-2 order-sm-2"> 
-                            <img src="img/bak-24-06-2019.jpg" class="img-fluid rounded"> 
-                        </div>                         
-                        <div class="col-md col-sm-6 p-3">
-                            <h4 class="font-weight-bold text-dark text-uppercase">Захисти Бакалаврів</h4> 
-                            <h6 class="mb-3">24 червня 2019 року</h6>
-                            <a class="btn btn-secondary disabled" href="#">Детально</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-5 mb-3 mt-3 offset-lg-0 offset-md-0 text-sm-right"> 
-                    <div class="align-items-center bg-light border flex-lg-row flex-md-column-reverse ml-3 ml-sm-0 mr-3 mr-sm-0 no-gutters  rounded-lg row shadow text-center text-lg-right text-md-center text-sm-right"> 
-                        <div class="col-lg-6 col-md col-sm-6 order-lg-2 order-sm-2"> 
-                            <img src="img/mag-07-02-2019.jpg" class="bg-secondary img-fluid rounded"> 
-                        </div>                         
-                        <div class="col-md col-sm-6 p-3"> 
-                            <h4 class="font-weight-bold text-dark text-uppercase">Захисти магістрів</h4> 
-                            <h6 class="mb-3">07 лютого 2019 року</h6>
-                            <a class="btn btn-secondary disabled" href="#">Детально</a> 
-                        </div>                         
-                    </div>                     
-                </div>
-                <div class="col-lg-6 col-md-5 mb-3 mt-3 offset-lg-0">
-                    <div class="align-items-center bg-light border flex-lg-row-reverse flex-md-column-reverse flex-row-reverse ml-3 ml-sm-0 mr-3 mr-sm-0 no-gutters  rounded-lg row shadow text-center text-lg-left text-md-center text-sm-left">
-                        <div class="col-lg-6 col-md col-sm-6 order-lg-2 order-sm-2"> 
-                            <img src="img/mag-07-02-2018.jpg" class="img-fluid rounded"> 
-                        </div>                         
-                        <div class="col-md col-sm-6 p-3">
-                            <h4 class="font-weight-bold text-dark text-uppercase">Захисти магістрів</h4> 
-                            <h6 class="mb-3">07 лютого 2018 року</h6>
-                            <a class="btn btn-secondary disabled" href="#">Детально</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-5 mb-3 mt-3 offset-lg-0 offset-md-0 text-sm-right"> 
-                    <div class="align-items-center bg-light border flex-lg-row flex-md-column-reverse ml-3 ml-sm-0 mr-3 mr-sm-0 no-gutters  rounded-lg row shadow text-center text-lg-right text-md-center text-sm-right"> 
-                        <div class="col-lg-6 col-md col-sm-6 order-lg-2 order-sm-2"> 
-                            <img src="img/mag-30-01-2017.jpg" class="bg-secondary img-fluid rounded"> 
-                        </div>                         
-                        <div class="col-md col-sm-6 p-3"> 
-                            <h4 class="font-weight-bold text-dark text-uppercase">Захисти магістрів</h4> 
-                            <h6 class="mb-3">30 січня 2017 року</h6>
-                            <a class="btn btn-secondary disabled" href="#">Детально</a> 
-                        </div>                         
-                    </div>                     
-                </div>
-                <div class="col-lg-6 col-md-5 mb-3 mt-3 offset-lg-0">
-                    <div class="align-items-center bg-light border flex-lg-row-reverse flex-md-column-reverse flex-row-reverse invisible ml-2 ml-lg-0 ml-md-0 ml-sm-0 mr-2 mr-lg-0 mr-md-3 mr-sm-0 no-gutters rounded-lg row shadow text-center text-lg-left text-md-center text-sm-left">
-                        <div class="col-lg-6 col-md-auto col-sm-6 order-lg-2 order-sm-2"> 
-                            <img src="img/mag-07-02-2018.jpg" class="img-fluid rounded" width="255" height="255"> 
-                        </div>                         
-                        <div class="col-md col-sm-6 p-3">
-                            <h4 class="font-weight-bold text-dark text-uppercase">Захисти магістрів</h4> 
-                            <h6 class="mb-3">07 лютого 2018 року</h6>
-                            <a class="btn btn-secondary disabled" href="#">Детально</a>
-                        </div>
-                    </div>
-                </div>                 
-            </div>             
-        </div>         
-    </section>
-    <footer class="bg-light pb-3 pt-3 small text-secondary">
+    <footer class="pb-3 pt-3 small text-secondary">
         <div class="container">
             <div class="align-items-center row">
                 <div class="col-md-5 pb-2 pt-2 text-center text-md-left">
